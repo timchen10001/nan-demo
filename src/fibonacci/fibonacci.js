@@ -12,12 +12,21 @@ function compare(n) {
   console.log(`fib_native for n = ${n} => `, fib_native(n));
   var native_sec = performance.now() - native_start;
 
-  console.log({
-    "測試階層數": n,
-    "CPP 總秒數": cpp_sec,
-    "原生-node 總秒數": native_sec,
-  });
+  const ret = {
+    "order": n,
+    "cpp ms": cpp_sec,
+    "node ms": native_sec,
+  };
+
+  console.log(ret);
+
+  return ret;
 }
 
 
-compare(47);
+const records = [];
+for (let i = 2; i <= 45; i++) {
+  records.push(compare(i));
+}
+
+console.log(records);
