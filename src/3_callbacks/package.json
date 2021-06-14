@@ -1,0 +1,17 @@
+{
+  "name": "3_callbacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callback.js",
+  "scripts": {
+    "test": "node callback.js",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  }
+}

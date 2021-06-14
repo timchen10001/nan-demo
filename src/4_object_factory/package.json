@@ -1,0 +1,17 @@
+{
+  "name": "4_object_factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "obj-factory.js",
+  "scripts": {
+    "test": "node obj-factory.js",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  }
+}

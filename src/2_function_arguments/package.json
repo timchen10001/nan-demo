@@ -1,0 +1,15 @@
+{
+  "name": "2_function_arguments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addon.js",
+  "scripts": {
+    "test": "node addon.js",
+    "build": "node-gyp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  }
+}
