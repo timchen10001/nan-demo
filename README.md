@@ -2,7 +2,7 @@
 
 - [Reference](https://github.com/nodejs/node-addon-examples)
 
-# node-gym
+# node-gyp
 ```bash
 yarn global add node-gyp
 ```
