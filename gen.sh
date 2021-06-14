@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "file name"
+echo ">>> File Name"
 
 read FILE_NAME
 
-echo "module name"
+echo ">>> Module Name"
 
 read MODULE_NAME
 
