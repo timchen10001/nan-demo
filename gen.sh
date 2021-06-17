@@ -33,3 +33,7 @@ binding=${binding/2/$FILE_NAME}
 echo $binding >> binding.gyp
 
 npm init -y && yarn install
+
+echo \
+
+echo "cd src/$MODULE_NAME"
