@@ -20,7 +20,7 @@ binding='{
       "target_name": "1",
       "sources": [ "1.2" ],
       "include_dirs": [
-          "<!(node -e \"require(\''nan\'')\")"
+          "<!(node -e \"require(\'\'nan\'')\")"
       ]
     }
   ]
